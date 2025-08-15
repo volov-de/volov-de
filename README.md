@@ -41,17 +41,50 @@
 <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" alt="Prometheus"/>
 <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" alt="Grafana"/>
 <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/><br>
 <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
 <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code"/>
-<img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter"/>
+<img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter"/><br>
 <img src="https://img.shields.io/badge/Amazon_S3-569A31?style=for-the-badge&logo=amazon-s3&logoColor=white" alt="Amazon S3"/>
-<img src="https://img.shields.io/badge/Apache_HDFS-66CCFF?style=for-the-badge&logo=Apache&logoColor=white" alt="HDFS"/>
+<img src="https://img.shields.io/badge/API-FF6600?style=for-the-badge&logo=api&logoColor=white" alt="API"/>
 <img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=Apache%20Kafka&logoColor=white" alt="Apache Kafka"/>
 <img src="https://img.shields.io/badge/Apache_Hadoop-66CCFF?style=for-the-badge&logo=Apache%20Hadoop&logoColor=white" alt="Apache Hadoop"/>
 <img src="https://img.shields.io/badge/Redash-E44D26?style=for-the-badge&logo=redash&logoColor=white" alt="Redash"/>
-<img src="https://img.shields.io/badge/API-FF6600?style=for-the-badge&logo=api&logoColor=white" alt="API"/>
+
 
 </div>
 
 ---
+
+## 🚀 Проекты
+
+<div align="center">
+
+| **Название проекта** | **Описание проекта** | **Стек** |
+|:--------------------:|:---------------------|:---------|
+| **[Marketplace Data Pipeline](https://github.com/volov-de/marketplace-data-pipeline)** | **Комплексное решение для построения аналитической витрины по товарам маркетплейса.**<br>Полностью автоматизированная ETL/ELT система, объединяющая современные технологии обработки, интеграции и хранения больших данных для построения бизнес-аналитики и отчетности.<br><br>— Построение end-to-end пайплайна<br>— Интеграция данных из S3 и их обработка с помощью Spark на Kubernetes<br>— Оркестрация всего процесса Airflow<br>— Загрузка и анализ в Greenplum с помощью PXF<br>— Оформлены аналитические представления для мониторинга продаж и работы продавцов | <br>• Data Lake: VK Cloud Object Storage (S3)<br>• Обработка данных: Apache Spark (на Kubernetes)<br>• Оркестрация: Apache Airflow<br>• Хранилище: Greenplum<br>• Интеграция: PXF (Greenplum ⇄ S3)<br>• Code: Git (GitLab) |
+| **[PySpark Data Cleaner](https://github.com/volov-de/PySparkDataCleaner)** | **Универсальный инструмент для чистки и препроцессинга больших датасетов на Spark.**<br>Реализует гибкие алгоритмы поиска аномалий и пропущенных значений, стандартизации и нормализации данных для подготовки массивов к анализу или ML.<br><br>— Масштабируемая обработка с помощью PySpark<br>— Проведение анализов качества данных<br>— Поддержка хранения на S3 и интеграция с Jupyter | **Big Data Stack:**<br>• Обработка данных: Apache Spark, PySpark<br>• Язык программирования: Python<br>• Интерактивная разработка: Jupyter Notebook<br>• Хранилище данных: VK Cloud Object Storage (S3)<br>• Code: Git |
+| **[K8s Single Node Infrastructure VLESS](https://github.com/volov-de/k8s-single-node-infra-vless)** | **Инфраструктурное решение для быстрого деплоя и управления сервисами через Kubernetes с поддержкой VPN-прокси (VLESS).**<br>Реализует защищённый односерверный кластер с автоматическим SSL, продвинутым мониторингом и гибкой сетью.<br><br>— Автоматизация поднятия кластера через kubeadm<br>— Настройка XRay/VLESS, nginx, Docker<br>— Мониторинг и оповещения через Prometheus + Grafana<br>— Безопасность за счёт TLS и iptables | **Infra Stack:**<br>• Контейнеризация: Docker, containerd<br>• Оркестрация: Kubernetes (kubeadm)<br>• VPN/Proxy: XRay, vless, nginx<br>• Monitoring: Prometheus, Grafana, kube-state-metrics<br>• CI/Automation: bash, systemd, Helm<br>• Security: iptables, SSH-only, TLS termination |
+
+</div>
+
+
+
+
+---
+
+## 📬 Связаться со мной
+
+<div align="center">
+
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/volov_de)
+[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:volow15122001@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/volov_de)
+
+</div>
+
+---
+
+<div align="center">
+  <sub>⭐️ From <a href="https://github.com/volov_de">volov_de</a> with ❤️</sub>
+</div>
